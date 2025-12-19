@@ -168,13 +168,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\TermProj\VTK\Install\include\vtk-9.5</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\TermProj-master\VTK\Install\include\vtk-9.5</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\TermProj\VTK\Install\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\TermProj-master\VTK\Install\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>vtksys-9.5.lib;vtkCommonCore-9.5.lib;vtkCommonDataModel-9.5.lib;vtkCommonExecutionModel-9.5.lib;vtkFiltersCore-9.5.lib;vtkFiltersSources-9.5.lib;vtkIOGeometry-9.5.lib;vtkInteractionStyle-9.5.lib;vtkRenderingCore-9.5.lib;vtkRenderingOpenGL2-9.5.lib;vtkRenderingFreeType-9.5.lib;opengl32.lib;vtkCommonTransforms-9.5.lib;vtkFiltersGeneral-9.5.lib</AdditionalDependencies>
     </Link>
     <Midl>

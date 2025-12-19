@@ -522,7 +522,7 @@ void CTermProjDlg::UpdateSelectedCharInfo()
     CString info; info.Format(_T("%s\r\n%d장 %d행 %d번"), c.m_char.GetString(), c.m_sheet, c.m_line, c.m_order);
     m_staticCharInfo.SetWindowText(info);
     LoadCharInfoImage(c);
-    CString strFullPath; strFullPath.Format(_T("C:\\TermProj\\04_3d\\%s_1.stl"), c.m_char.GetString());
+    CString strFullPath; strFullPath.Format(_T("C:\\TermProj-master\\04_3d\\%s_1.stl"), c.m_char.GetString());
     CFileFind finder; Update3DView(finder.FindFile(strFullPath) ? strFullPath : _T(""));
 }
 
