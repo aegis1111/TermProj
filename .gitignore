@@ -7,7 +7,7 @@
 !x64/
 !x64/Release/
 git add -f x64
-git commit -m "add x64 build"
+git commit -m "Track x64 build output"
 git push
 
 # User-specific files
